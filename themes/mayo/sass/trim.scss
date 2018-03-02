@@ -1,0 +1,18 @@
+.view-exercises {
+  .view-grouping {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    &:nth-of-type(odd) {
+      border-bottom: solid 10px rgba(166,222,134,0.5);
+    }
+    .view-grouping-header {
+      background: #ddd;
+      padding: 20px 10px;
+      a {
+        font-size: 36px;
+        font-weight: bold;
+        color: #000;
+      }
+    }
+  }
+}

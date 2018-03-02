@@ -1,18 +1,20 @@
 {
-  "name": "mayo",
-  "version": "1.0.0",
-  "description": "MAYO - original theme for Drupal 7 from PIXTURE STUDIO",
-  "main": "index.js",
-  "dependencies": {
-    "grunt": "^1.0.2",
-    "lodash": "^4.17.5",
-    "package.json": "^2.0.1"
+  "name": "theme-grunt-runner",
+  "description": "A Simple Grunt skeleton for Drupal Theming Projects",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.1",
+    "grunt-scss-lint": "^0.5.0",
+    "matchdep": "^1.0.1",
+    "node-sass": "^3.12.5"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "pixrem": "^3.0.0"
+  }
 }

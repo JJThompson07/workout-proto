@@ -5,16 +5,16 @@
 // .rc-2 Node only
 // .rc-3 Both sidebar block and node
 // ====================================================================
-.rc-2 .comment,
-.rc-2 .node,
-.rc-1 .column-block,
-.rc-1 .sidebar .block,
-.rc-3 .comment,
-.rc-3 .node,
-.rc-3 .column-block,
-.rc-3 .sidebar .block {
-  @include border-radius (8px);
-}
+// .rc-2 .comment,
+// .rc-2 .node,
+// .rc-1 .column-block,
+// .rc-1 .sidebar .block,
+// .rc-3 .comment,
+// .rc-3 .node,
+// .rc-3 .column-block,
+// .rc-3 .sidebar .block {
+//   @include border-radius (8px);
+// }
 
 // ====================================================================
 // Dark color set for message and errors.
